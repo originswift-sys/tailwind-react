@@ -17,15 +17,15 @@
     }
 
     &.small {
-      @apply w-64 py-2 text-base;
+      @apply px-7 py-2 text-sm;
     }
 
     &.medium {
-      @apply py-3 text-base w-72;
+      @apply px-8 py-2 text-base;
     }
 
     &.large {
-      @apply py-4 text-lg w-80;
+      @apply px-10 py-3 text-lg;
     }
 
     &:disabled {

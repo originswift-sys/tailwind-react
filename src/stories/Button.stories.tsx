@@ -1,4 +1,5 @@
 import { Story, Meta } from "@storybook/react";
+import React from "react";
 
 import { Button, ButtonProps } from "../components/button";
 
@@ -7,12 +8,12 @@ export default {
   component: Button,
   argTypes: {
     size: {
-      type: "select",
+      type: "string",
       options: ["small", "medium", "large"],
       defaultValue: "medium",
     },
     variant: {
-      type: "select",
+      type: "string",
       options: ["primary", "secondary"],
       defaultValue: "primary",
     },
