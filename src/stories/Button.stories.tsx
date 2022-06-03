@@ -8,12 +8,12 @@ export default {
   component: Button,
   argTypes: {
     size: {
-      type: "string",
+      type: "select",
       options: ["small", "medium", "large"],
       defaultValue: "medium",
     },
     variant: {
-      type: "string",
+      type: "select",
       options: ["primary", "secondary"],
       defaultValue: "primary",
     },
@@ -21,7 +21,7 @@ export default {
       type: "boolean",
     },
   },
-} as Meta;
+};
 
 const Template: Story<ButtonProps> = (args) => <Button {...args} />;
 
