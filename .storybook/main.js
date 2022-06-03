@@ -1,3 +1,5 @@
+import { resolve } from "path";
+
 module.exports = {
   framework: "@storybook/react",
   stories: ["../src/**/*.stories.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
@@ -20,10 +22,10 @@ module.exports = {
     config.module.rules.push({
       test: /\.scss$/,
       use: ["style-loader", "css-loader", "sass-loader"],
-      include: path.resolve(__dirname, "../"),
+      include: resolve(__dirname, "../"),
     });
 
     // Return the altered config
     return config;
-  }
+  },
 };
