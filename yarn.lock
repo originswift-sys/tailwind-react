@@ -9834,13 +9834,6 @@
   "resolved" "https://registry.npmjs.org/require-from-string/-/require-from-string-2.0.2.tgz"
   "version" "2.0.2"
 
-"require-strip-json-comments@^2.0.0":
-  "integrity" "sha512-Pta3KVBaVZ9DHMoOGRd+3PEc/EFZAQ1JVHQpKZfPo018fdT9iEsyPBzqNAgJAzKMF4kbr5G7GaqP0+UOwnGfPw=="
-  "resolved" "https://registry.npmjs.org/require-strip-json-comments/-/require-strip-json-comments-2.0.0.tgz"
-  "version" "2.0.0"
-  dependencies:
-    "strip-json-comments" "^3.0"
-
 "resolve-from@^4.0.0":
   "integrity" "sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g=="
   "resolved" "https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz"
@@ -10715,11 +10708,6 @@
   "version" "3.0.0"
   dependencies:
     "min-indent" "^1.0.0"
-
-"strip-json-comments@^3.0":
-  "integrity" "sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig=="
-  "resolved" "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-3.1.1.tgz"
-  "version" "3.1.1"
 
 "style-inject@^0.3.0":
   "integrity" "sha512-IezA2qp+vcdlhJaVm5SOdPPTUu0FCEqfNSli2vRuSIBbu5Nq5UvygTk/VzeCqfLz2Atj3dVII5QBKGZRZ0edzw=="

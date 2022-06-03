@@ -34,7 +34,6 @@
     "postcss": "^8.4.14",
     "postcss-import": "^14.1.0",
     "postcss-preset-env": "^7.7.0",
-    "require-strip-json-comments": "^2.0.0",
     "rollup": "^2.75.5",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",

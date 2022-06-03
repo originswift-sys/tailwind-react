@@ -5,9 +5,7 @@ import postcss from "rollup-plugin-postcss";
 import typescript from "@rollup/plugin-typescript";
 import { terser } from "rollup-plugin-terser";
 
-var requireJSON = require("require-strip-json-comments");
 const packageJson = require("./package.json");
-const tsconfigJson = requireJSON("./tsconfig.json");
 
 export default [
   {
@@ -34,13 +32,7 @@ export default [
       external(),
       resolve(),
       typescript({
-        ...tsconfigJson,
-        compilerOptions: {
-          ...tsconfigJson.compilerOptions,
-        //   declarationDir: "./",
-        },
-        // include: ["**/*"],
-        // exclude: ["lib", "node_modules"],
+        tsconfig: "./tsconfig.rollup.json",
       }),
       terser(),
     ],
